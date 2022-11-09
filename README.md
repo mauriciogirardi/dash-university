@@ -4,6 +4,10 @@
 
 ### Esta é uma aplicação para gerenciamento de universidades e escolas, esta projeto foi criado com base em um desafio.
 
+<div align="center">
+<img src=".github/video.gif"/>
+</div>
+
 ##### Como rodar o projeto
 
 ```bash
