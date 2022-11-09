@@ -8,10 +8,10 @@
 
 ```bash
   # Clone o projeto
-  git clone
+  git clone https://github.com/mauriciogirardi/dash-university.git
 
   # Abra o projeto
-  cd
+  cd dash-university
 
   # Instale as dependências
   yarn

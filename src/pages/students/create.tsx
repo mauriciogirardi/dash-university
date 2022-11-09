@@ -6,7 +6,6 @@ import {
   TabPanel,
   TabPanels,
   Tabs,
-  Text,
   useToast,
   VStack,
 } from '@chakra-ui/react'

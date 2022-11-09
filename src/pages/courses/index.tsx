@@ -5,7 +5,6 @@ import {
   Heading,
   Icon,
   Td,
-  Text,
   Tr,
   Link as ChakraLink,
   useToast,

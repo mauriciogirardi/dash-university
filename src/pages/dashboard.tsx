@@ -12,7 +12,7 @@ const seriesDay = [
 
 export default function Dashboard() {
   return (
-    <DefaultLayout title="Dashboard">
+    <DefaultLayout>
       <SimpleGrid
         flex="1"
         gap="4"
