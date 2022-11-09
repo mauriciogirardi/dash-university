@@ -13,7 +13,6 @@ import * as yup from 'yup'
 import { yupResolver } from '@hookform/resolvers/yup'
 import { FieldValues, SubmitHandler, useForm } from 'react-hook-form'
 
-import { optionsCourses, optionsGang, optionsStatusCourse } from './utils'
 import { FormLayout } from '../../layout/FormLayout'
 import { Select } from '../../components/Form/Select'
 import { Input } from '../../components/Form/Input'
@@ -23,6 +22,11 @@ import { Student } from '../../types/Student'
 import { api } from '../../services/axios'
 import { useMutation } from 'react-query'
 import { queryClient } from '../../services/queryClient'
+import {
+  optionsCourses,
+  optionsGang,
+  optionsStatusCourse,
+} from '../../utils/options'
 
 type CreateStudentFormData =
   | {

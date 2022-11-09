@@ -6,13 +6,13 @@ import { useMutation } from 'react-query'
 import { useRouter } from 'next/router'
 import * as yup from 'yup'
 
-import { optionsLevelUser, optionsStatus } from './utils'
 import { queryClient } from '../../services/queryClient'
 import { FormLayout } from '../../layout/FormLayout'
 import { Select } from '../../components/Form/Select'
 import { Input } from '../../components/Form/Input'
 import { User } from '../../types/User'
 import { api } from '../../services/axios'
+import { optionsLevelUser, optionsStatus } from '../../utils/options'
 
 type CreateUserFormData =
   | {

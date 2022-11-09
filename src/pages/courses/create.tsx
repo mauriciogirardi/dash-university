@@ -5,13 +5,13 @@ import { FieldValues, SubmitHandler, useForm } from 'react-hook-form'
 import { Input } from '../../components/Form/Input'
 import { FormLayout } from '../../layout/FormLayout'
 import { Select } from '../../components/Form/Select'
-import { optionsStatus } from './utils'
 import { useEffect, useState } from 'react'
 import { api } from '../../services/axios'
 import { useRouter } from 'next/router'
 import { Course } from '../../types/Course'
 import { queryClient } from '../../services/queryClient'
 import { useMutation } from 'react-query'
+import { optionsStatus } from '../../utils/options'
 
 type CreateCourseFormData =
   | {
